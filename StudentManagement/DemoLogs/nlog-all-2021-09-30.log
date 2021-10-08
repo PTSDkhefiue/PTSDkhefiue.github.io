@@ -1,0 +1,86 @@
+2021-09-30 10:37:09.2714|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 10:37:09.3267|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 10:37:09.3365|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\vs\程序\StudentManagement\StudentManagement
+2021-09-30 10:37:17.4747|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-30 10:37:17.5269|ERROR|StudentManagement.Controllers.ErrorController|路径:/home/details/1,产生了一个错误System.Exception: 此异常发生在Details中
+   at StudentManagement.Controllers.HomeController.Details(Int32 id) in D:\vs\程序\StudentManagement\StudentManagement\Controllers\HomeController.cs:line 33
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-09-30 10:37:25.9786|WARN|StudentManagement.Controllers.ErrorController|发生了一个404错误，路径=/abc以及查询字符串=
+2021-09-30 10:47:44.2072|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 10:47:44.2663|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 10:47:44.2725|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\vs\程序\StudentManagement\StudentManagement
+2021-09-30 10:47:44.5809|ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+2021-09-30 10:47:44.7116|ERROR|StudentManagement.Controllers.ErrorController|路径:/,产生了一个错误System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'StudentManagement.Controllers.HomeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-09-30 10:54:39.3440|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 10:54:39.4066|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 10:54:39.4135|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\vs\程序\StudentManagement\StudentManagement
+2021-09-30 10:54:44.5141|INFO|StudentManagement.Controllers.HomeController|Information（信息）Log
+2021-09-30 10:54:44.5237|WARN|StudentManagement.Controllers.HomeController|Warning（警告）Log
+2021-09-30 10:54:44.5237|ERROR|StudentManagement.Controllers.HomeController|Error（错误）Log
+2021-09-30 10:54:44.5237|FATAL|StudentManagement.Controllers.HomeController|Critical（严重）Log
+2021-09-30 11:03:32.3778|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 11:03:32.4382|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 11:03:32.4443|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\vs\程序\StudentManagement\StudentManagement
+2021-09-30 11:03:32.8039|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 11:03:32.8076|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 11:06:38.2095|INFO|StudentManagement.Controllers.HomeController|Information（信息）Log
+2021-09-30 11:06:38.2140|WARN|StudentManagement.Controllers.HomeController|Warning（警告）Log
+2021-09-30 11:06:38.2140|ERROR|StudentManagement.Controllers.HomeController|Error（错误）Log
+2021-09-30 11:06:38.2299|FATAL|StudentManagement.Controllers.HomeController|Critical（严重）Log
+2021-09-30 11:35:43.7574|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 11:35:43.8100|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 11:35:43.8100|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\vs\程序\StudentManagement\StudentManagement
+2021-09-30 11:35:44.2119|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 11:35:44.2119|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 11:35:49.7302|INFO|StudentManagement.Controllers.HomeController|Information（信息）Log
+2021-09-30 11:35:49.7302|WARN|StudentManagement.Controllers.HomeController|Warning（警告）Log
+2021-09-30 11:35:49.7302|ERROR|StudentManagement.Controllers.HomeController|Error（错误）Log
+2021-09-30 11:35:49.7431|FATAL|StudentManagement.Controllers.HomeController|Critical（严重）Log
+2021-09-30 16:14:19.6739|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-30 16:14:19.7241|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-30 16:14:19.7348|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\vs\程序\StudentManagement\StudentManagement
+2021-09-30 16:14:20.4523|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 16:14:20.4523|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 16:14:25.3580|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 16:14:25.3580|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 16:14:26.2289|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 16:14:26.2289|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 16:14:26.4019|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 16:14:26.4019|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 16:14:26.6238|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 16:14:26.6238|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 16:14:27.3381|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 16:14:27.3381|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
+2021-09-30 16:14:27.5854|ERROR|StudentManagement.Models.SQLStudentRepository|学生信息 Error（错误）Log
+2021-09-30 16:14:27.5854|FATAL|StudentManagement.Models.SQLStudentRepository|学生信息 Critical（严重）Log
